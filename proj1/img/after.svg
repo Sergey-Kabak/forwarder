@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="3166 0 1366 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f8f8f8;
+      }
+    </style>
+  </defs>
+  <path id="after" data-name="after" class="cls-1" d="M0,0H1366S1021.6,100,680.1,100,0,0,0,0Z" transform="translate(3166)"/>
+</svg>

@@ -1,0 +1,144 @@
+@import "util/_vars"
+
+////////		TOP HEADER BEGIN	////////////////////
+header
+	width: 100%
+	.top_header
+		width: 100%
+		background-color: $main-color
+		.top_header__wrapper
+			max-width: 1176px
+			width: 100%
+			margin: 0 auto
+			height: 50px
+			display: flex
+			flex-direction: row
+			justify-content: space-between
+			align-items: center
+			.short_menu
+				margin-left: 15px
+				width: 30px
+				height: 30px
+				border-radius: 50%
+				background-color: #fff
+				i
+					font-size: 38px
+					margin: -4px 0 0 -4px
+					color: $main-color
+					cursor: pointer
+			.signin
+				margin-right: 15px
+				display: flex
+				align-items: center
+				text-decoration: none
+				p
+					font-size: 16px
+					color: #fff
+					text-transform: uppercase
+					font-weight: 100
+					margin: 0 20px 0 0
+				i
+					font-size: 28px
+					color: #fff
+////////		TOP HEADER END 						////////////////////
+
+////////		HEADER WRAPPER BEGIN 			////////////////////
+.header_wrapper
+	width: 100%
+	background-color: $header_bg
+	position: relative
+	margin-bottom: 125px
+	&:after
+		width: 100%
+		height: 100px
+		position: absolute
+		content: ''
+		bottom: -100px
+		background-image: url(../img/after.svg)
+		background-repeat: no-repeat
+		background-position: center
+		background-size: cover
+		z-index: 1
+	.inner_header_wrapper
+		max-width: 1176px
+		width: 100%
+		min-height: 450px
+		margin: 0 auto
+		background-image: url(../img/vntu_prj.png)
+		background-size: contain
+		background-repeat: no-repeat
+		background-position: 10px 185px
+		.cursor
+			opacity: 0
+			position: absolute
+			right: 300px
+			top: 300px
+			z-index: 6
+		h1
+			margin: 0
+			padding: 20px 0 0 0
+			text-align: center
+			font-size: 30px
+			font-weight: 100
+		.phone_img
+			width: 240px
+			height: 480px
+			background-image: url(../img/vntu_phone.png)
+			background-size: contain
+			background-repeat: no-repeat
+			position: relative
+			left: 50px
+			top: -30px
+			z-index: 5
+			.inner_phone
+				position: absolute
+				background-image: url(../img/inner_phone.png)
+				width: 218px
+				height: 368px
+				background-size: contain
+				background-repeat: no-repeat
+				left: 8px
+				top: 53px
+				border: 1px solid #888
+				opacity: 0.95
+				button
+					position: absolute
+					bottom: 23px
+					left: 50%
+					transform: translate(-50.84%)
+					width: 180px
+					height: 41px
+					border: none
+					background-color: #56B58F
+					color: #fff
+					font-size: 16px
+					font-weight: 300
+					padding: 0
+					&:hover
+						background-color: #4DAC86
+					&:active
+						background: #49A17E
+						box-shadow: inset  0 0 3px #4B9779
+					i
+						position: absolute
+						right: 8px
+						top: 13px
+		.header_description
+			display: flex
+			position: relative
+			left: 310px
+			top: 60px
+			align-items: center
+			p:nth-child(3)
+				max-width: 185px
+				text-align: center
+				margin-top: 10px
+			p
+				margin: 0
+				color: #747474
+				font-size: 18px
+				font-weight: 100
+			span
+				margin: 0 15px
+				font-size: 26px
+				color: #D5D5D5
