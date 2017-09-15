@@ -10,7 +10,9 @@
   "description": "html, sass, js",
   "devDependencies": {
     "gulp": "^3.9.1",
-    "gulp-sass": "^3.1.0"
+    "gulp-sass": "^3.1.0",
+    "run-sequence": "^2.1.0",
+    "yargs": "^8.0.2"
   },
   "dependencies": {
     "gulp-git": "^2.4.2"
