@@ -1,1 +1,1 @@
-{"E:\\Front end\\vntu_app\\gulpfile.js": {"tasks": {"watch": {"name": "watch", "dependencies": ""}, "default": {"name": "default", "dependencies": ""}, "sass": {"name": "sass", "dependencies": ""}}, "sha1": "ec810b3da115864f634e5465cc71ab9eee798870"}}
+{"E:\\Front end\\vntu_app\\gulpfile.js": {"tasks": {"sass": {"name": "sass", "dependencies": ""}, "add": {"name": "add", "dependencies": ""}, "default": {"name": "default", "dependencies": ""}, "watch": {"name": "watch", "dependencies": ""}}, "sha1": "c6605c59a949deb3ea3bff6b39e6b28cd4d69594"}}
