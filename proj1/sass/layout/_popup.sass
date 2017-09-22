@@ -1,0 +1,96 @@
+@import "util/_vars"
+///////////    popup_login Begin ////////////////////////
+.popup_login
+	visibility: hidden
+	position: fixed
+	z-index: 55
+	left: 50%
+	top: 100px
+	transform: translate(-50%)
+	margin: 0 auto
+	display: flex
+	flex-direction: column
+	width: 300px
+	background-color: #fff
+	box-shadow: 0 3px 6px #888
+	h3
+		font-family: $main-font
+		font-weight: 400
+		color: #fff
+		margin: 0
+		background-color: $main-color
+		line-height: 30px
+		text-align: center
+		margin-bottom: 5px
+	.popup_login_exit
+		cursor: pointer
+		height: 8px
+		position: absolute
+		right: 10px
+		top: 10px
+		.popup_login_exit_line
+			width: 14px
+			height: 3px
+			background-color: #fff
+		.popup_login_exit_line1
+			@extend .popup_login_exit_line
+			transform: rotate(-45deg)
+			position: relative
+			top: 3px
+		.popup_login_exit_line2
+			@extend .popup_login_exit_line
+			transform: rotate(45deg)
+	p
+		margin: 7px 0
+		font-size: 16px
+		font-weight: 300
+		padding-left: 10px
+	input
+		width: 274px
+		margin-left: 10px
+		padding: 0
+		border: 1px solid #ccc
+		font-size: 14px
+		font-weight: 400
+		line-height: 20px
+	button
+		width: 276px
+		margin: 10px 0 0 10px
+		padding: 0
+		border: 1px solid #ccc
+		line-height: 20px
+	.registration
+		margin: 10px 0 20px 10px
+		width: 276px
+		display: flex
+		justify-content: space-between
+		font-size: 14px
+		a
+			color: $main-color
+			text-decoration: none
+///////////    popup_login END /////////////////////////
+
+///////////    popup_registration Begin ////////////////////////
+.popup_registration
+	visibility: hidden
+	position: fixed
+	z-index: 55
+	left: 50%
+	top: 100px
+	transform: translate(-50%)
+	margin: 0 auto
+	display: flex
+	flex-direction: column
+	width: 300px
+	background-color: #fff
+	box-shadow: 0 3px 6px #888
+	h3
+		font-family: $main-font
+		font-weight: 400
+		color: #fff
+		margin: 0
+		background-color: $main-color
+		line-height: 30px
+		text-align: center
+		margin-bottom: 5px
+///////////    popup_registration END ////////////////////////

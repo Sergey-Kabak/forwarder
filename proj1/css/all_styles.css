@@ -36,7 +36,8 @@ header {
         margin-right: 15px;
         display: flex;
         align-items: center;
-        text-decoration: none; }
+        text-decoration: none;
+        cursor: pointer; }
         header .top_header .top_header__wrapper .signin p {
           font-size: 16px;
           color: #fff;
@@ -147,8 +148,101 @@ header {
         font-size: 26px;
         color: #D5D5D5; }
 
+.popup_login {
+  visibility: hidden;
+  position: fixed;
+  z-index: 55;
+  left: 50%;
+  top: 100px;
+  transform: translate(-50%);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: #fff;
+  box-shadow: 0 3px 6px #888; }
+  .popup_login h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    background-color: #E57373;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 5px; }
+  .popup_login .popup_login_exit {
+    cursor: pointer;
+    height: 8px;
+    position: absolute;
+    right: 10px;
+    top: 10px; }
+    .popup_login .popup_login_exit .popup_login_exit_line, .popup_login .popup_login_exit .popup_login_exit_line1, .popup_login .popup_login_exit .popup_login_exit_line2 {
+      width: 14px;
+      height: 3px;
+      background-color: #fff; }
+    .popup_login .popup_login_exit .popup_login_exit_line1 {
+      transform: rotate(-45deg);
+      position: relative;
+      top: 3px; }
+    .popup_login .popup_login_exit .popup_login_exit_line2 {
+      transform: rotate(45deg); }
+  .popup_login p {
+    margin: 7px 0;
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 10px; }
+  .popup_login input {
+    width: 274px;
+    margin-left: 10px;
+    padding: 0;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px; }
+  .popup_login button {
+    width: 276px;
+    margin: 10px 0 0 10px;
+    padding: 0;
+    border: 1px solid #ccc;
+    line-height: 20px; }
+  .popup_login .registration {
+    margin: 10px 0 20px 10px;
+    width: 276px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px; }
+    .popup_login .registration a {
+      color: #E57373;
+      text-decoration: none; }
+
+.popup_registration {
+  visibility: hidden;
+  position: fixed;
+  z-index: 55;
+  left: 50%;
+  top: 100px;
+  transform: translate(-50%);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  background-color: #fff;
+  box-shadow: 0 3px 6px #888; }
+  .popup_registration h3 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+    background-color: #E57373;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 5px; }
+
 .section1 .section_wrapper h2 {
   margin: 0;
   font-weight: 100;
   text-transform: uppercase;
   text-align: center; }
+
+footer p {
+  color: blue; }
